@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rantal apartment to Paris</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Rantal apartment to Paris</h1>
+    </header>
+   
+    
+    <main>
+      
+        <nav>
+            <!-- navigation -->
+            <h2>Rental from $100</h2>
+            <fieldset>
+                <legend>per night</legend>
+           
+                <form action="index.html" method="get">
+                <label for="checkin">
+                    <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                    Check In
+                </label>
+                    <input type="date" name="date" id="checkin">
+                
+                <label for="checkout">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Check Out
+                </label>
+                    <input type="date" name="date" id="checkin">
+              
+    
+                <label for="adult">
+                    <i class="fa fa-male" aria-hidden="true"></i> Adults
+                </label>
+                    <input id="adult" type="number" value="1" min="0" max="6" name="adult">
+                
+                <label for="kids">
+                    <i class="fa fa-child" aria-hidden="true"></i> Kids
+                </label>
+                    <input id="adult" type="number" value="0" min="0" max="3" name="kids">
+                <button type="submit"><i class="fa fa-search w3-margin-right"></i> Search availebility</button>
+               </form>
+            </fieldset>
+            <ul>
+                <li><i class="fa fa-building" aria-hidden="true"></i> Apartment</li>
+                <li><i class="fa fa-rss" aria-hidden="true"></i> Subscribe</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i> Contact</li>
+            </ul>
+        </nav>
+        <!-- content -->
+        <section class="visit-room">
+            <h2>This apartment</h2>
+            <figure>
+                <img src="./asset/livingroom.jpg" alt="livingroom" class="rooms" id="target">
+                <figcaption>
+                    <h3>living room</h3>
+                </figcaption>
+            </figure>
+            
+            <ul>
+                <li data-image="./asset/livingroom.jpg" data-title="living room">
+                    <img src="./asset/livingroom.jpg" alt="livingroom" class="active-image">
+                   
+                </li>
+                <li data-image="./asset/diningroom.jpg" data-title="dining room">
+                    <img src="./asset/diningroom.jpg" alt="diningroom">
+                </li>
+                <li data-image="./asset/bedroom.jpg" data-title="bed room">
+                    <img src="./asset/bedroom.jpg" alt="bedroom">
+                </li>
+                <li data-image="./asset/livingroom_sup.jpg" data-title="livin groom II">
+                    <img src="./asset/livingroom_sup.jpg" alt="livingroom large">
+                </li>
+            </ul>
+        </section>
+
+        <section class="the-space">
+            <h2>The space</h2>
+            <div class="grid-space">
+                <ul>
+                    <li>
+                        <i class="fa fa-male" aria-hidden="true"></i>
+                        Max people: 4
+                    </li>
+                    <li>
+                        <i class="fa fa-fw fa-bath" aria-hidden="true"></i>
+                        Bathrooms: 2
+                    </li>
+                    <li>
+                        <i class="fa fa-fw fa-bed"></i>
+                        Bedrooms: 1
+                    </li>
+                </ul>
+            
+            <!--list sup-->
+            <ul>
+                <li>
+                    <i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>
+                    Check In: After 3PM
+                </li>
+                <li>
+                    <i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>
+                    Check Out: 12PM
+                </li>
+            </ul>
+        </div>
+        </section>
+
+        <section class="amenities">
+            <h2>Amenities</h2>
+            <div class="grid-space">
+            <ul>
+                <li>
+                    <i class="fa fa-fw fa-shower"></i>
+                    Shower
+                </li>
+                <li>
+                    <i class="fa fa-fw fa-wifi"></i>
+                    WiFi
+                </li>
+                <li>
+                    <i class="fa fa-fw fa-tv"></i>
+                    TV
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <i class="fa fa-fw fa-cutlery"></i>
+                    Kitchen
+                </li>
+                <li>
+                    <i class="fa fa-fw fa-thermometer"></i>
+                    Heating
+                </li>
+                <li>
+                    <i class="fa fa-fw fa-wheelchair"></i>
+                    Accessible
+                </li>
+            </ul>
+            </div>
+        </section>
+
+        <section class="extra-info">
+            <h2>Extra Info</h2>
+            <p>
+                Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+                We accept : <i class="fa fa-credit-card w3-large"></i> 
+                        <i class="fa fa-cc-mastercard w3-large"></i>
+                        <i class="fa fa-cc-amex w3-large"></i>
+
+            </p>
+
+        </section>
+
+        <section class="rules">
+            <h2>Rules</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus quia voluptatibus illo quasi fugit distinctio possimus?
+            </p>
+            <p>
+                Subscribe to receive updates on available dates and special offers.
+            </p>
+            <button aria-label="subscribe">
+                Subscribe
+            </button>
+
+        </section>
+
+        <!-- contact -->
+        <section class="form-contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i> hicago, US</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: +00 151515</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"> </i>Email: mail@mail.com</li>
+            </ul>
+            <fieldset>
+                <legend>Questions? Go ahead, ask them:</legend>
+                <form action="#" method="post">
+                    <input type="text" name="firstname" placeholder="Name" required aria-required="true">
+                    <input type="email" name="mail" placeholder="Email" required aria-required="true">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <input type="submit" value="Send a Message">
+                </form>
+            </fieldset> 
+        </section>
+    </main>
+    <footer>
+        <p>&copy; - Powered - GiusMili - 2021</p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

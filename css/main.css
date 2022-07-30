@@ -1,0 +1,148 @@
+/* theme */
+
+:root{
+    --color-default:  #222;
+    --color-success: #4caf50;
+    --color-nav: #f1f1f1;
+    --color-header: #fff;
+}
+
+header h1{
+    line-height: 6.5rem;
+    text-align: center;
+    color: var(--color-success);
+    font-weight: 400;
+    background-color: var(--color-header);
+}
+main{
+    max-width: 120rem;
+    margin: 0 auto;
+    background: var(--color-header);
+}
+nav{
+    position: fixed;
+    top: 7rem;
+    left: 5.5rem;
+    width: 30rem;
+    background-color: var(--color-nav);
+    padding: 0 1rem;
+    overflow-y: auto;
+    height: 100vh;
+}
+nav form *, .form-contact form *{
+    display: block;
+    width: 100%;
+    line-height: 3.5rem;
+}
+nav form i{
+    display: inline-block;
+    width: auto;
+    vertical-align: .1rem;
+}
+nav form label{
+    margin: 1rem 0;
+}
+nav fieldset, .form-contact fieldset{
+    border: 0;
+    padding: 0;
+}
+nav form input, .form-contact form input, .form-contact textarea{
+    border: solid .1rem #ccc;
+    margin-bottom: 1rem;
+    font-size: inherit;
+    resize: none;
+    padding: .5rem;
+}
+nav ul{
+    line-height: 4.5rem;
+}
+section{
+    padding:0 1rem;
+}
+section p{
+    margin-top: 2rem;
+}
+section button, nav form button, .form-contact form input[type="submit"]{
+    background-color: var(--color-success);
+    display: inline-block;
+    width: 25rem;
+    color: #fff;
+    line-height: 4.0rem;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+}
+.rules button{
+    margin: 1rem 0 2rem 0;
+}
+nav form button{
+    border: 0;
+    margin-top: 2rem;
+}
+.visit-room ul{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.visit-room h2{
+    font-weight: 300;
+    color: var(--color-success);
+    line-height: 3.5rem;
+}
+.visit-room ul li img{
+    transition:  all 500ms ease-in-out;
+}
+.visit-room ul li:hover img{
+    filter: brightness(0.6);
+    cursor: pointer;
+}
+.active-image{
+    filter: brightness(0.6);
+}
+.visit-room figure{
+    position: relative;
+}
+.visit-room figure figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+}
+.the-space h2, .amenities h2, .extra-info h2, .rules h2, .form-contact h2{
+    font-weight: 300;
+    line-height: 6.5rem;
+}
+
+.the-space, .amenities, .extra-info{
+    padding-bottom: 2rem;
+    border-bottom: solid .1rem #ccc;
+}
+.the-space .grid-space, .amenities .grid-space{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 3.5rem;
+}
+
+.form-contact ul{
+    line-height: 4.5rem;
+}
+.form-contact ul li i{
+    margin-right: .4rem;
+}
+
+footer *{
+    text-align: center;
+    padding: 1rem;
+}
+@media screen and (max-width: 1500px){
+    nav{
+        display: none;
+    }
+}
