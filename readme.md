@@ -1,10 +1,3 @@
----
-title: Pratiques HTML
-tags: support, html, good practice
-robots: noindex, nofollow
-author: Giuseppe Militello
----
-
 ![image](./asset/template.PNG)
 &copy;  [Giuseppe Militello](https://www.linkedin.com/in/giuseppe-militello-22406ab0/) - All rights reserved for educational purposes only
 
