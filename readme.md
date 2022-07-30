@@ -7,4 +7,6 @@
 Cet exercice à pour but d'initier les étudiants en développement à intégrer 
 une maquette d'après un modèle design
 
+[Voir en ligne](https://giusmili.github.io/rental_appartement/) &rsaquo;
+
 &copy; *Militello Giuseppe 2022*
